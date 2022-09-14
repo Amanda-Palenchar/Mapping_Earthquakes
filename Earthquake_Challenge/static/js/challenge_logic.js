@@ -1,8 +1,6 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
-let API_KEY = "pk.eyJ1IjoiYXBhbGVuY2hhciIsImEiOiJjbDdxaWxjOXUwNW0wM3Rta3F4MDRreWdoIn0.IxqHdY76j63LumJknaVOyw";
-
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
